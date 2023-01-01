@@ -12,6 +12,28 @@
     transition: .2s linear;
 }
 
+body{
+    background-color: #F7ECDE;
+}
+
+
+html{
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #F7ECDE;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #B00814;
+    border-radius: 1rem;
+}
 
 /* Navbar */
 
@@ -58,6 +80,11 @@
 section{
     max-width: 100vw;
     min-height: 100vh;
+}
+
+.home{
+    display: flex;
+    margin-top: 3rem;
 }
 
 .titulo{
@@ -126,3 +153,10 @@ section{
 }
 
 
+
+/* PRODUTO */
+
+.product{
+    background-color: #F7ECDE;
+
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <!-- CSS -->
     <link rel="stylesheet" href="styles/styles_home.css"> 
 
@@ -17,53 +17,52 @@
     <title>Auditec</title>
 </head>
 <body>
-    
-<nav class="navbar navbar-expand-lg pb-3">
-    <div class="container">
 
-          <img src="img/logo.png" alt="logo" style="width: 6rem;">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse d-flex justify flex-row-reverse" id="navbarNavDropdown">
-            <ul class="navbar-nav text-aling">
 
-              <li class="nav-item">
-                <a class="nav-link" href="#"> 
-                <i class="uil uil-estate nav__icon"></i>Início</a>
-              </li>
-      
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                <i class="uil uil-bag nav__icon"></i>Nossos Serviços</a>
-              </li>
-      
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                <i class="uil uil-asterisk nav__icon"></i>Vistoria de Constatação</a>
-              </li>
-      
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                <i class="uil uil-location-point nav__icon"></i>Localização</a>
-              </li>
-      
-              <li class="nav-item">
-                <a href="#" class="button_contact">Contate-nos</a>
-              </li>
-      
-            </ul>
-        </div>
-    </div> 
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+
+    <img src="img/logo.png" alt="logo" style="width: 6rem;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify flex-row-reverse" id="navbarNavDropdown">
+      <ul class="navbar-nav text-aling">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home"> 
+          <i class="uil uil-estate nav__icon"></i>Início</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <i class="uil uil-bag nav__icon"></i>Nossos Serviços</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <i class="uil uil-asterisk nav__icon"></i>Vistoria de Constatação</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <i class="uil uil-location-point nav__icon"></i>Localização</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="button_contact">Contate-nos</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
 </nav>
 
 
-
-<section id="home d-flex align-items-center" style="background-color: #F7ECDE;">
-    <div class="container col-xxl-8 px-4 py-5">
-
+<section id="home" class="d-flex align-items-center pt-5 shadow-lg" style="background-color: #F7ECDE;">
+    <div class="container col-xxl-8 px-4 pt-5 pb-5">
         <div class="row align-items-center g-5 py-5">
-
             <div class="col-10 container-sm  col-sm-8 col-lg-6 ">
                 <img src="img/logoHome.png" class="d-block mx-lg-auto img-fluid imagem_logo" width="500" height="500" loading="lazy">
             </div>
@@ -77,19 +76,43 @@
                 <p class="lead " style="text-align: justify;">A AUDITEC possui uma solução inteligente, barata e totalmente ONLINE, para dar apoio ao mercado de Automotivo e Vistorias no geral.</p>
             
 
-                <div class="text-center botao-container py-3"> 
-
-                       
+                <div class="text-center botao-container py-3">
                     <a class="btn btn-lg px-4 me-md-2 fw-bold botao" href="">
                         <i class="uil uil-angle-double-down botao-icon"></i>
                         Sobre o produto</a>        
                 </div>
+
             </div>
         </div>
     </div> 
-   </section>
-    
-      
+
+</section>
+
+
+<section class="product " id="product">
+
+
+  <div class="text-center  pt-5 punchline" > 
+    <h1 class="display-5 fw-bold lh-2 mb-3 titulo fs-1">Sobre o Nosso <span>Produto</span> </h1>
+  </div>
+
+  <div class=" container my-5 headline">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <p class="lead" style="text-align: justify">Este produto inovador, trata-se do BUREAU DE ANÁLISE que disponibiliza uma ampla mesa de análise, com os melhores técnicos em perícias automotivas do mercado e um sistema com ferramentas que apoiam com segurança a tomada de decisão, eliminando riscos ao negócio.
+          
+        <P class="lead" style="text-align: justify;">Desta forma garantimos as transações que envolvem Vistorias Automotivas, proporcionalmente conforme a cobertura contratada.</p>
+
+      </div>
+
+      <div class="col-lg-4 p-0 shadow-lg align-items-center mb-3">
+          <img class="rounded-lg-3 img-fluid " src="img/Car_Product.png" alt="" width="720">
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -102,6 +125,9 @@
 
 
 
+
+    <!-- Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- JS -->
     <script src="js/script.js"></script>
     <!-- Bootstrap -->
