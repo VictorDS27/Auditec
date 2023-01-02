@@ -95,6 +95,8 @@ section{
     color: #B00814;
 }
 
+
+
 /* .imagem_logo{
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
@@ -119,7 +121,7 @@ section{
 
 .botao-container{
     transform: translateY(0px);
-    animation: float 5s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -127,7 +129,7 @@ section{
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
 
     100%{
@@ -158,5 +160,17 @@ section{
 
 .product{
     background-color: #F7ECDE;
+}
 
+/* VISTORIA */
+
+#vistoria{
+    background-color: #F7ECDE;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #F3DABB;
 }
