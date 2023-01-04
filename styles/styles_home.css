@@ -8,13 +8,9 @@
     outline: none; border: none;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
-body{
-    background-color: #F7ECDE;
-}
 
 
 html{
@@ -37,9 +33,6 @@ html::-webkit-scrollbar-thumb{
 
 /* Navbar */
 
-.navbar{
-    background-color: #F7ECDE;
-}
 
 .nav-item a
 {
