@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="styles/styles_clientes.css"> 
+    <link rel="stylesheet" href="styles/styles_contato.css"> 
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -18,7 +18,8 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-white fixed-top">
+
+<nav class="navbar navbar-expand-lg bg-white fixed-top">
     <div class="container-fluid">
   
       <img src="img/logo.png" alt="logo" style="width: 6rem;">
@@ -56,42 +57,93 @@
         </ul>
       </div>
     </div>
-  </nav>
-  
+</nav>
 
 
+<section class="contato pt-5"> 
 
 
-<section id="clientes" class="d-flex pt-5 align-items-center container">
+  <div class="container col-xxl-8 px-4 mt-5 pt-5 pb-5 ">
 
-    <div class="col-12 pt-5">
-        <div class="text-center mb-4" > 
-        <h1 class="display-5 fw-bold lh-2 mb-3 titulo fs-1">Nossos 
-            <span>Clientes:</span> </h1>
+    <div class="row align-items-center g-5 pb-3 card-contato">
+
+      <div class="text-center" > 
+        <h1 class="display-5 fw-bold lh-2 mb-3 titulo fs-1">Auditec Auditoria 
+            <span>Técnica e Soluções</span> </h1>
+      </div>
+
+      <div class="col-10 container-sm  col-sm-8 col-lg-6 ">
+          <form action="">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nomeInput" placeholder="nome" name="nome" required>
+                <label for="nomeInput" style="color: #000;">Nome</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="sobrenomenomeInput" placeholder="sobrenome" name="sobrenome" required>
+                <label for="sobrenomenomeInput" style="color: #000;">Sobrenome</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="emailInput" placeholder="email@exemplo.com" name="email" required>
+                <label for="emailInput" style="color: #000;">Seu e-mail</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="assuntoInput" placeholder="assunto" name="assunto" required>
+                <label for="assuntoInput" style="color: #000;">Assunto do e-mail</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="telefoneInput" placeholder="telefone" name="telefone" required>
+                <label for="telefoneInput" style="color: #000;">Seu telefone</label>
+              </div>
+
+      </div>
+
+
+              <!-- FORM -->
+        
+        <div class="col-lg-6">
+
+          <div class="pb-5">
+            <label for="exampleFormControlTextarea1" class="form-label fw-bold">Sua mensagem:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="13"></textarea>
+          </div>
+
         </div>
+
     
+        <div class="col-lg-12">
 
-        <div class="container row justify-content-between">
-            
-            <div class="col-lg-5 col-sm-12 text-center border my-3 py-4 card-clientes">
-                <a href="https://www.embracon.com.br/" target="_blank"> <img src="img/Consorcio_Embracon.svg" height="200" width="200" class="img-fluid"> </a>
+          <div class="form-floating mb-3">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" required>
+              <label class="form-check-label fw-bold" for="flexSwitchCheckChecked">Ao selecionar esta caixa e enviar seus dados, você nos autoriza a te enviar e-mails. Você pode cancelar a qualquer momento.</label>
             </div>
+         </div>
 
-            <div class="col-lg-5 col-sm-12 text-center border my-3 py-4 card-clientes">
-                <a href="https://consorciotradicao.com.br/" target="_blank"> <img src="img/logo-tradicao.png" class="img-fluid" height="200" width="350"> </a>
-            </div>
-
-            <div class="col-lg-5 col-sm-12 text-center border my-3 py-4 card-clientes">
-                <a href="https://www.rodobens.com.br/" target="_blank"> <img src="img/logo-rodobens-primary.svg" class="img-fluid" height="200" width="400"> </a>
-            </div>
-
-            <div class="col-lg-5 col-sm-12 text-center border my-3 py-4 card-clientes">
-                <a href="https://iniciar.autorola.com.br/" target="_blank"> <img src="img/logo-autorola.png" class="img-fluid" height="200" width="350"> </a>
-            </div>
         </div>
+        
+          <div class="text-center"> 
+          <button class="w-25 btn btn-lg fw-bold" type="submit" style="background-color: #C90A14; color: #fff;">Enviar</button>
+          </div>
+          
+       </form>
     </div>
-
+  </div>  
 </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -115,6 +167,12 @@
     </div>
 
 </footer>
+
+
+
+
+
+
 
 
 
